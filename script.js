@@ -1,7 +1,6 @@
 var todoList = {
   todos: [],
   displayTodos: function() {
-    // debugger;
     if (this.todos.length === 0) {
       console.log("Your todo list is empty!");
     } else {
@@ -16,7 +15,6 @@ var todoList = {
     }
   },
   addTodo: function(todoText) {
-    // debugger;
     this.todos.push({
       todoText: todoText,
       completed: false
@@ -24,6 +22,7 @@ var todoList = {
     this.displayTodos();
   },
   changeTodo: function(position, todoText) {
+    // debugger;
     // this.todos[position] = newValue;
     this.todos[position].todoText = todoText;
     this.displayTodos();

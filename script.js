@@ -27,17 +27,16 @@ var todoList = {
     this.displayTodos();
   },
   deleteTodo: function(position) {
-
     this.todos.splice(position, 1);
     this.displayTodos();
   },
   toggleCompleted: function(position) {
-    // debugger;
     var todo = this.todos[position];
     todo.completed = !todo.completed;
     this.displayTodos();
   },
   toggleAll: function() {
+    // debugger;
     var totalTodos = this.todos.length;
     var completedTodos = 0;
 

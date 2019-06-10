@@ -46,7 +46,6 @@ var todoList = {
       }
     }
 
-    
     // case 1: if everything's true, make everything false
     if (completedTodos === totalTodos) {
       for (var i = 0; i < totalTodos; i++) {
@@ -71,5 +70,4 @@ displayTodosButton.addEventListener("click", function() {
 toggleAllButton.addEventListener("click", function() {
   todoList.toggleAll();
 });
-
 

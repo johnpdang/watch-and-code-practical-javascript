@@ -82,5 +82,8 @@ var handlers = {
     var addTodoTextInput = document.getElementById('addTodoTextInput');
     todoList.addTodo(addTodoTextInput.value);
     addTodoTextInput.value = '';
+  },
+  changeTodo: function() {
+
   }
 };

@@ -95,9 +95,10 @@ var handlers = {
 var view = {
   displayTodos: function() {
     var todosUl = document.querySelector('ul');
-    todosUl.innerHTML = '';    
+    todosUl.innerHTML = '';
     for (var i = 0; i < todoList.todos.length; i++) {
       var todoLi = document.querySelector('li');
+      todoLi.textContent = todoList.todos[i].todoText;
       todosUl.appendChild(todoLi);
     }
   }

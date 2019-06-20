@@ -2,20 +2,171 @@
 practical javascript
 ============================== */
 
-Version 1:
+`introduction`
+✔ What is Practical JavaScript? (3:13) @done(19-06-20 14:14)
+✔ The voice in your ear (4:41) @done(19-06-20 14:14)
+✔ Is this course right for you? (1:13) @done(19-06-20 14:14)
+✔ Everything is a todo list (3:53) @done(19-06-20 14:14)
+✔ What you'll build (3:25) @done(19-06-20 14:14)
+✔ The development process (3:35) @done(19-06-20 14:14)
+✔ Approach (6:48) @done(19-06-20 14:14)
 
-Version 2:
+`support`
+✔ Go to office hours or submit a question @done(19-06-20 14:14)
+✔ Additional information @done(19-06-20 14:14)
 
-Version 3:
+`tools`
+✔ Track your progress (1:17) @done(19-06-20 14:14)
+✔ Get Google Chrome (1:01) @done(19-06-20 14:14)
+✔ Get Plunker (0:43) @done(19-06-20 14:14)
 
-Version 4:
+Version 1 - arrays:
+✔ Requirements (1:46) ☐ @done(19-06-20 14:10)
+✔ It should have a place to store todos (4:08) @done(19-06-20 14:10)
+✔ It should have a way to display todos (3:20) @done(19-06-20 14:10)
+✔ It should have a way to add new todos (2:17) @done(19-06-20 14:10)
+✔ It should have a way to change a todo (4:03) @done(19-06-20 14:10)
+✔ It should have a way to delete a todo (2:48) @done(19-06-20 14:10)
+✔ Review (3:04) @done(19-06-20 14:10)
 
-Version 5:
+Version 2 - functions:
+✔ Functions are just recipes (3:36) @done(19-06-20 14:14)
+✔ Customizing functions (6:45) @done(19-06-20 14:14)
+✔ More on customizing functions (2:15) @done(19-06-20 14:14)
+✔ Requirements (2:12) @done(19-06-20 14:14)
+✔ It should have a function to display todos (3:54) @done(19-06-20 14:14)
+✔ It should have a function to add new todos (5:41) @done(19-06-20 14:14)
+✔ It should have a function to change a todo (6:08) @done(19-06-20 14:14)
+✔ It should have a function to delete a todo (3:01) @done(19-06-20 14:14)
+✔ Review (4:15) @done(19-06-20 14:14)
 
-Version 6:
+Interlude - functions and variables:
+✔ Observations (4:18) @done(19-06-20 14:14)
+✔ Circles and arrows (2:51) @done(19-06-20 14:14)
+✔ Applying what we've learned (3:58) @done(19-06-20 14:14)
 
-Version 7:
+Version 3 - objects:
+✔ What is an object? (5:30) @done(19-06-20 14:14)
+✔ Objects and functions (4:46) @done(19-06-20 14:14)
+✔ Using Plunker (2:49) @done(19-06-20 14:14)
+✔ Requirements (0:52) @done(19-06-20 14:14)
+✔ It should store the todos array on an object (3:31) @done(19-06-20 14:14)
+✔ It should have a displayTodos method (3:11) @done(19-06-20 14:14)
+✔ It should have an addTodo method (3:13) @done(19-06-20 14:14)
+✔ It should have a changeTodo method (3:10) @done(19-06-20 14:14)
+✔ It should have a deleteTodo method (3:28) @done(19-06-20 14:14)
+✔ Review (1:15) @done(19-06-20 14:14)
+
+Interlude - success is the process:
+✔ Ability = Process * Time (3:41) @done(19-06-20 14:14)
+✔ The most important part of your process (6:56) @done(19-06-20 14:14)
+
+Version 4 - booleans:
+✔ Requirements (1:10) @done(19-06-20 14:14)
+✔ todoList.addTodo should add objects (5:14) @done(19-06-20 14:14)
+✔ todoList.changeTodo should change the todoText property (4:27) @done(19-06-20 14:14)
+✔ todoList.toggleCompleted should flip the completed property (6:06) @done(19-06-20 14:14)
+✔ Review (1:39) @done(19-06-20 14:14)
+
+Version 5 - loops and logic:
+✔ The for loop (7:01) @done(19-06-20 14:15)
+✔ Looping over arrays (4:26) @done(19-06-20 14:15)
+✔ Requirements (0:40) @done(19-06-20 14:15)
+✔ displayTodos should show .todoText (6:36) @done(19-06-20 14:15)
+✔ displayTodos should tell you if .todos is empty (6:58) @done(19-06-20 14:15)
+✔ displayTodos should show .completed (6:11) @done(19-06-20 14:15)
+✔ Review (1:29) @done(19-06-20 14:15)
+
+Version 6 - thinking in code:
+✔ Requirements (3:05) @done(19-06-20 14:15)
+✔ .toggleAll: If everything's true, make everything false (6:44) @done(19-06-20 14:15)
+✔ .toggleAll: Otherwise, make everything true (4:02) @done(19-06-20 14:15)
+✔ Review (2:05) @done(19-06-20 14:15)
+
+Interlude - data types and comparisons:
+✔ Data types overview (3:36) @done(19-06-20 14:15)
+✔ Comparisons with primitives (2:51) @done(19-06-20 14:15)
+✔ Comparisons with objects (7:16) @done(19-06-20 14:15)
+✔ Comparisons review (2:56) @done(19-06-20 14:15)
+✔ How are primitives and objects stored inside of variables? (0:47) @done(19-06-20 14:15)
+✔ Code example 1 (2:00) @done(19-06-20 14:15)
+✔ Code example 2 (2:23) @done(19-06-20 14:15)
+✔ Code example 3 (3:59) @done(19-06-20 14:15)
+✔ Code example 4 (5:03) @done(19-06-20 14:15)
+✔ Code example 5 (3:02) @done(19-06-20 14:15)
+
+Version 7 - html and the dom:
+✔ Requirements (1:28) @done(19-06-20 14:15)
+✔ HTML essentials (8:21) @done(19-06-20 14:15)
+✔ What's the DOM? (6:44) @done(19-06-20 14:15)
+✔ There should be a “Display todos” button and a “Toggle all” button in the app (2:36) @done(19-06-20 14:15)
+✔ Clicking “Display todos” should run todoList.displayTodos (9:48) @done(19-06-20 14:15)
+✔ Clicking “Toggle all” should run todoList.toggleAll (3:34) @done(19-06-20 14:15)
+✔ Review (2:25) @done(19-06-20 14:15)
+
+Interlude - dont wonder about things the dugger can tell you:
+✔ todoList.displayTodos (5:27) @done(19-06-20 14:15)
+✔ todoList.addTodo (4:19) @done(19-06-20 14:15)
+✔ todoList.changeTodo (2:09) @done(19-06-20 14:15)
+✔ todoList.deleteTodo (2:04) @done(19-06-20 14:15)
+✔ todoList.toggleCompleted (2:25) @done(19-06-20 14:15)
+✔ todoList.toggleAll (4:37) @done(19-06-20 14:15)
+✔ Use the debugger all the time (1:54) @done(19-06-20 14:15)
+✔ Focus on understanding, not building from scratch (3:02) @done(19-06-20 14:15)
 
 Version 8:
-☐ Requirements @started(19-06-12 13:57)
+☐ Our first refactoring (9:45)
+☐ More on refactoring (3:29)
+☐ Requirements
+☐ There should be a button for adding todos (7:51)
+☐ There should be a button for changing todos (6:17)
+☐ There should be a button for deleting todos (3:47)
+☐ There should be a button for toggling a todo (4:04)
+☐ Review (2:20)
 
+Version 9:
+☐ Requirements (2:29)
+☐ Inserting li elements into the DOM (7:34)
+☐ There should be an li element for every todo (8:48)
+☐ Each li element should contain .todoText (2:49)
+☐ Each li element should show .completed (7:38)
+☐ Escaping the console (5:57)
+☐ Review (3:49)
+
+Interlude - functions inside of functions:
+☐ runWithDebugger (6:04)
+☐ setTimeout (2:03)
+☐ forEach (7:10)
+☐ addEventListener (4:50)
+☐ Buzzwords: Higher order functions and callback functions (4:17)
+
+Version 10:
+☐ Introducing Glitch (2:57)
+☐ The 'return' statement (3:10)
+☐ Requirements (1:48)
+☐ There should be a way to create delete buttons (3:56)
+☐ There should be a delete button for each todo (2:05)
+☐ Each li should have an id that has the todo position (2:58)
+☐ Delete buttons should have access to the todo id (6:14)
+☐ Clicking delete should update todoList.todos and the DOM (8:39)
+☐ Cleanup and Review (3:48)
+
+Version 11:
+☐ Requirements (0:37)
+☐ todoList.toggleAll should use forEach (10:30)
+☐ view.displayTodos should use forEach (7:20)
+☐ Review (2:51)
+
+Interlude - Understanding *this*:
+☐ The cheatsheet (2:09)
+☐ Case 1: In a regular function (2:11)
+☐ Case 2: When a function is called as a method (1:15)
+☐ Case 3: When a function is called as a constructor (5:11)
+☐ Case 4: When you explicitly set the value of `this` with bind, apply, or call (10:41)
+☐ Case 5: When you're in a callback function (10:32)
+
+`next steps`
+
+  /* ==============================
+
+  ============================== */

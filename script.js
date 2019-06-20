@@ -100,6 +100,7 @@ var view = {
       var todoLi = document.querySelector('li');
       todoLi.textContent = todoList.todos[i].todoText;
       todosUl.appendChild(todoLi);
+      //each li item should show completed
     }
   }
 };

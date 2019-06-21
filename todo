@@ -115,20 +115,20 @@ Interlude - dont wonder about things the dugger can tell you:
 ✔ Focus on understanding, not building from scratch (3:02) @done(19-06-20 14:15)
 
 Version 8:
-☐ Our first refactoring (9:45)
-☐ More on refactoring (3:29)
-☐ Requirements
-☐ There should be a button for adding todos (7:51)
-☐ There should be a button for changing todos (6:17)
-☐ There should be a button for deleting todos (3:47)
-☐ There should be a button for toggling a todo (4:04)
-☐ Review (2:20)
+✔ Our first refactoring (9:45) @done(19-06-21 10:44)
+✔ More on refactoring (3:29) @done(19-06-21 10:44)
+✔ Requirements @done(19-06-21 10:44)
+✔ There should be a button for adding todos (7:51) @done(19-06-21 10:44)
+✔ There should be a button for changing todos (6:17) @done(19-06-21 10:44)
+✔ There should be a button for deleting todos (3:47) @done(19-06-21 10:44)
+✔ There should be a button for toggling a todo (4:04) @done(19-06-21 10:44)
+✔ Review (2:20) @done(19-06-21 10:44)
 
 Version 9:
-☐ Requirements (2:29)
-☐ Inserting li elements into the DOM (7:34)
-☐ There should be an li element for every todo (8:48)
-☐ Each li element should contain .todoText (2:49)
+✔ Requirements (2:29) @done(19-06-21 10:45)
+✔ Inserting li elements into the DOM (7:34) @done(19-06-21 10:45)
+✔ There should be an li element for every todo (8:48) @done(19-06-21 10:45)
+✔ Each li element should contain .todoText (2:49) @done(19-06-21 10:45)
 ☐ Each li element should show .completed (7:38)
 ☐ Escaping the console (5:57)
 ☐ Review (3:49)

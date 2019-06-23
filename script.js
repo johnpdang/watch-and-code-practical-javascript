@@ -98,6 +98,9 @@ var view = {
     todosUl.innerHTML = '';
     for (var i = 0; i < todoList.todos.length; i++) {
       var todoLi = document.querySelector('li');
+
+      // '(x) todoText'
+
       todoLi.textContent = todoList.todos[i].todoText;
       todosUl.appendChild(todoLi);
       //each li item should show completed

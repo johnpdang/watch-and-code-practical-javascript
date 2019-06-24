@@ -129,7 +129,7 @@ Version 9:
 ✔ Inserting li elements into the DOM (7:34) @done(19-06-21 10:45)
 ✔ There should be an li element for every todo (8:48) @done(19-06-21 10:45)
 ✔ Each li element should contain .todoText (2:49) @done(19-06-21 10:45)
-☐ Each li element should show .completed (7:38) <-- todo
+☐ Each li element should show .completed (7:38) <-- todo 9.52
 ☐ Escaping the console (5:57)
 ☐ Review (3:49)
 

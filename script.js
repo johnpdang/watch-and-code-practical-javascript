@@ -98,12 +98,17 @@ var view = {
     todosUl.innerHTML = '';
     for (var i = 0; i < todoList.todos.length; i++) {
       var todoLi = document.querySelector('li');
+      var todo = todoList.todos[i];
+      var todoTextWithCompletion = '';
 
-      // '(x) todoText'
+      if (todo.completed === true) {
+        todoTextWithCompletion = '(x)' + todo.todoText;
+      } else {
+        todoTextWithCompletion = '( )' + todo.todoText;
+      }
 
-      todoLi.textContent = todoList.todos[i].todoText;
+      todoLi.textContent = todoTextWithCompletion;
       todosUl.appendChild(todoLi);
-      //each li item should show completed
     }
   }
 };

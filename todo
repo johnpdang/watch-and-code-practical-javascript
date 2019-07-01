@@ -130,7 +130,7 @@ Version 9:
 ✔ There should be an li element for every todo (8:48) @done(19-06-21 10:45)
 ✔ Each li element should contain .todoText (2:49) @done(19-06-21 10:45)
 ✔ Each li element should show .completed (7:38) @done(19-06-25 10:56)
-☐ Escaping the console (5:57) //9.64
+☐ Escaping the console (5:57) //9.65
 ☐ Review (3:49)
 
 Interlude - functions inside of functions:

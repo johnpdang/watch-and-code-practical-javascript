@@ -69,23 +69,36 @@ var handlers = {
     var addTodoTextInput = document.getElementById('addTodoTextInput');
     todoList.addTodo(addTodoTextInput.value);
     addTodoTextInput.value = '';
+    view.displayTodos();
   },
   changeTodo: function() {
-    var changeTodoPositionInput = document.getElementById('changeTodoPositionInput');
+    var changeTodoPositionInput = document.getElementById(
+      'changeTodoPositionInput'
+    );
     var changeTodoTextInput = document.getElementById('changeTodoTextInput');
-    todoList.changeTodo(changeTodoPositionInput.valueAsNumber, changeTodoTextInput.value);
+    todoList.changeTodo(
+      changeTodoPositionInput.valueAsNumber,
+      changeTodoTextInput.value
+    );
     changeTodoPositionInput.value = '';
     changeTodoTextInput.value = '';
+    view.displayTodos();
   },
   deleteTodo: function() {
-    var deleteTodoPositionInput = document.getElementById('deleteTodoPositionInput');
+    var deleteTodoPositionInput = document.getElementById(
+      'deleteTodoPositionInput'
+    );
     todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);
     deleteTodoPositionInput.value = '';
+    view.displayTodos();
   },
   toggleCompleted: function() {
-    var toggleCompletedPositionInput = document.getElementById('toggleCompletedPositionInput');
+    var toggleCompletedPositionInput = document.getElementById(
+      'toggleCompletedPositionInput'
+    );
     todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber);
     toggleCompletedPositionInput.value = '';
+    view.displayTodos();
   },
   toggleAll: function() {
     todoList.toggleAll();
@@ -97,14 +110,14 @@ var view = {
     var todosUl = document.querySelector('ul');
     todosUl.innerHTML = '';
     for (var i = 0; i < todoList.todos.length; i++) {
-      var todoLi = document.querySelector('li');
+      var todoLi = document.createElement('li');
       var todo = todoList.todos[i];
       var todoTextWithCompletion = '';
 
       if (todo.completed === true) {
-        todoTextWithCompletion = '(x)' + todo.todoText;
+        todoTextWithCompletion = '(x) ' + todo.todoText;
       } else {
-        todoTextWithCompletion = '( )' + todo.todoText;
+        todoTextWithCompletion = '( ) ' + todo.todoText;
       }
 
       todoLi.textContent = todoTextWithCompletion;

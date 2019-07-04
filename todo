@@ -135,9 +135,10 @@ Version 9:
 
 Interlude - functions inside of functions:
 ✔ runWithDebugger (6:04) @done(19-07-03 13:55)
-☐ setTimeout (2:03) 9.91
-☐ forEach (7:10)
-☐ addEventListener (4:50)
+✔ setTimeout (2:03) @done(19-07-04 12:20)
+✔ forEach (7:10) @done(19-07-04 12:20)
+☐ addEventListener (4:50) 
+9.11.1
 ☐ Buzzwords: Higher order functions and callback functions (4:17)
 
 Version 10:

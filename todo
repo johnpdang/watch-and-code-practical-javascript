@@ -138,7 +138,7 @@ Interlude - functions inside of functions:
 ✔ setTimeout (2:03) @done(19-07-04 12:20)
 ✔ forEach (7:10) @done(19-07-04 12:20)
 ☐ addEventListener (4:50)
-9.11.2
+9.11.3
 ☐ Buzzwords: Higher order functions and callback functions (4:17)
 
 Version 10:

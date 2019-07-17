@@ -137,14 +137,13 @@ Interlude - functions inside of functions:
 ✔ runWithDebugger (6:04) @done(19-07-03 13:55)
 ✔ setTimeout (2:03) @done(19-07-04 12:20)
 ✔ forEach (7:10) @done(19-07-04 12:20)
-☐ addEventListener (4:50)
-9.11.11
-☐ Buzzwords: Higher order functions and callback functions (4:17)
+✔ addEventListener (4:50) @done(19-07-17 11:20)
+✔ Buzzwords: Higher order functions and callback functions (4:17) @done(19-07-17 11:24)
 
 Version 10:
-☐ Introducing Glitch (2:57)
-☐ The 'return' statement (3:10)
-☐ Requirements (1:48)
+✔ Introducing Glitch (2:57) @done(19-07-17 11:34)
+✔ The 'return' statement (3:10) @done(19-07-17 11:34)
+✔ Requirements (1:48) @done(19-07-17 11:39)
 ☐ There should be a way to create delete buttons (3:56)
 ☐ There should be a delete button for each todo (2:05)
 ☐ Each li should have an id that has the todo position (2:58)

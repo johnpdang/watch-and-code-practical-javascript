@@ -145,7 +145,7 @@ Version 10:
 ✔ The 'return' statement (3:10) @done(19-07-17 11:34)
 ✔ Requirements (1:48) @done(19-07-17 11:39)
 ☐ There should be a way to create delete buttons (3:56)
-10.4.1
+10.4.2
 ☐ There should be a delete button for each todo (2:05)
 ☐ Each li should have an id that has the todo position (2:58)
 ☐ Delete buttons should have access to the todo id (6:14)

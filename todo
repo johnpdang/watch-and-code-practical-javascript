@@ -145,9 +145,9 @@ Version 10:
 ✔ The 'return' statement (3:10) @done(19-07-17 11:34)
 ✔ Requirements (1:48) @done(19-07-17 11:39)
 ✔ There should be a way to create delete buttons (3:56) @done(19-07-19 10:43)
-☐ There should be a delete button for each todo (2:05)
-10.5.3
+✔ There should be a delete button for each todo (2:05) @done(19-07-23 11:47)
 ☐ Each li should have an id that has the todo position (2:58)
+10.6.1
 ☐ Delete buttons should have access to the todo id (6:14)
 ☐ Clicking delete should update todoList.todos and the DOM (8:39)
 ☐ Cleanup and Review (3:48)
